@@ -1,0 +1,17 @@
+.card {
+  padding: 0.625rem;
+  border: 1px solid black;
+  .card__header {
+    .card__title {
+      margin-top: 0;
+    }
+  }
+  .card__image {
+    a {
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
