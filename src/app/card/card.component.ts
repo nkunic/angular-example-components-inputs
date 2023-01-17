@@ -7,5 +7,5 @@ import { Course } from '../model/course';
   styleUrls: ['./card.component.scss'],
 })
 export class CardComponent {
-  @Input() course: Course;
+  @Input() course: Course; // Course Input object
 }
